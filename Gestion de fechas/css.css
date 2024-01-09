@@ -1,0 +1,35 @@
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    background-image: url(imagenes/primavera.jpg);
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.479);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.countdown {
+    margin-bottom: 30px;
+}
+
+#countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+span{
+    margin: 0.5em;
+}
+

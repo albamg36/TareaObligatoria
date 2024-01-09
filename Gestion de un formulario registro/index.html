@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <script src="script.js" defer></script>
+    <title>Gestión de formulario</title>
+</head>
+<body>
+    <br>
+    <h1>Registro de Usuario</h1>
+    <br>
+    <form id="registroForm">
+        <div>
+            <label for="nombre">Nombre de usuario:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <br>
+        <div>
+            <label for="telefono">Número de teléfono:</label>
+            <input type="text" id="telefono" name="telefono" pattern="[0-9]{9}" required>
+        </div>
+        <br>
+        <div>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+        </div>
+        <br>
+        <div>
+            <label for="confirmarContrasena">Confirmar Contraseña:</label>
+            <input type="password" id="confirmarContrasena" name="confirmarContrasena" required>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="aceptarCondiciones" name="aceptarCondiciones" required>
+            <label for="aceptarCondiciones">Acepto las condiciones de uso</label>
+        </div>
+        <br>
+        <div>
+            <button type="submit" id="registrarBtn">Registrar</button>
+        </div>
+    </form>
+</body>
+</html>
